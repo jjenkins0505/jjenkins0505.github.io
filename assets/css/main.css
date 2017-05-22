@@ -1757,12 +1757,42 @@
 
 /* Main */
 
+#textSettings5about
+{
+    font-family: 'Economica', sans-serif;
+    text-align:center;
+   font-size:40px;
+}
+
+
+
+
+#textSetting4About
+{
+     font-family: 'Amatica SC', cursive;
+    font-size:80px;
+}
+
+
+
 
 #textSettings1about
 {
-   font-family: 'Comic Sans MS', cursive, sans-serif;
+   font-family: 'Amatica SC', cursive;
+   text-align:center;
+}
+#textSetting2about
+{
+   
+   font-family: 'Source Serif Pro', serif;
+   text-align:center;
 }
 
+#textSettings3About
+{
+    font-family: 'Economica', sans-serif;
+    text-align:center;
+}
 	.main {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2096,34 +2126,55 @@
 
 		}
 
+        .style4
+        {
+            background-color:lightgray,;
+            opacity:0.8;
+           
+        }
+
 /* Intro */
 
-	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
+#intro {
+    background: url("images/overlay.png"),url('images/high-heels-2086307_960_720.jpg');
+    background-size: 106px 106px,cover;
+    background-attachment: fixed, fixed;
+    background-position: bottom left, center center;
+    background-repeat: repeat, no-repeat;
+}
 
 /* One */
 
-	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
+#one {
+    background: url("images/overlay.png"),url('images/glasses-472027_960_720.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
 
 /* Two */
 
-	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
+#two {
+    background: url("images/overlay.png"),url('images/480908356_1280x720.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
 
+#three {
+    background: url("images/overlay.png"),url('images/download (1).jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
+
+#work2 {
+    
+    background: url("images/overlay.png"),url('images/vizo_14-inch_laptop_2-8333098.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+}
 /* Contact */
 
 	#contact {
@@ -2157,3 +2208,12 @@
 			}
 
 		}
+
+        #imageSettings
+        {
+            text-align:center;
+            height:300px;
+            width:250px;
+
+                
+        }
